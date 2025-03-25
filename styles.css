@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  line-height: 1.7;
+  background-color: #fdfdfc;
+  color: #222;
+}
+
+main a,
+main a:visited,
+main a:hover,
+main a:active {
+  color: #0645ad;
+  text-decoration: underline;
+}
+
+header h1 a,
+nav a {
+  all: unset;
+  cursor: pointer;
+  color: #222 !important;
+  text-decoration: none !important;
+  font-family: 'EB Garamond', serif;
+}
+
+nav a:hover {
+  text-decoration: underline !important;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fdfdfc;
+  padding: 1.25rem 1rem 0.75rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin: 0 0 0.5rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 1.1rem;
+  font-size: 0.85rem;
+  padding-bottom: 0.25rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+nav a {
+  flex-shrink: 0;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.25rem 1.5rem 4rem;
+  text-align: left;
+}
+
+main p:first-of-type {
+  margin-top: 0 !important;
+}
+
+main p {
+  margin-bottom: 1.5rem;
+  white-space: pre-wrap;
+}
+
+.maiten-quote {
+  margin-top: 3rem;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #aaa;
+  margin-top: 4rem;
+}
