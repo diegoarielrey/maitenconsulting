@@ -78,8 +78,18 @@ main p {
   white-space: pre-wrap;
 }
 
-.maiten-quote {
+.maiten-logo {
   margin-top: 3rem;
+  text-align: center;
+}
+
+.maiten-logo img {
+  max-width: 140px;
+  margin-bottom: 0.5rem;
+}
+
+.maiten-quote {
+  margin-top: 2rem;
   text-align: center;
   font-style: italic;
   font-size: 0.9rem;
