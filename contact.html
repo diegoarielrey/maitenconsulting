@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Maitén Consulting</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <style>
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+      padding-top: 2rem;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      font-family: 'EB Garamond', serif;
+      font-size: 1rem;
+    }
+
+    .contact-form button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      background-color: #222;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #444;
+    }
+
+    .success-message {
+      text-align: center;
+      color: green;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">Maitén Consulting</a></h1>
+    <nav>
+      <a href="DiegoRey_CV_March_2025.pdf" target="_blank">CV</a>
+      <a href="https://scholar.google.com/citations?user=e81k_fIAAAAJ&hl=en" target="_blank">Publications</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-form">
+      <form action="https://getform.io/f/allywkoa" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="6" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Maitén Consulting</p>
+  </footer>
+</body>
+</html>
